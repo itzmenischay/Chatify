@@ -38,7 +38,7 @@ export const getMessagesByUserId = async (req, res) => {
 export const sendMessage = async (req, res) => {
   // console.log("BODY:", req.body);
   try {
-    console.log("BODY:", req.body);
+    // console.log("BODY:", req.body);
 
     const { text, image } = req.body;
     const { id: receiverId } = req.params;
