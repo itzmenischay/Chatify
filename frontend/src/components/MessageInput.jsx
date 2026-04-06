@@ -17,7 +17,7 @@ function MessageInput() {
     e.preventDefault();
     if (!text && !imagePreview) return;
     if (isSoundEnabled) playRandomKeyStrokeSound();
-
+``
     sendMessage({
       text: text,
       image: imagePreview,
